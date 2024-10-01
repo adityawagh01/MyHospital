@@ -1,0 +1,11 @@
+# Ignore node_modules folder in backend
+Backend/node_modules/
+
+# Ignore build and cache files in frontend
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.vite/
+
+# Ignore environment variables (if any)
+Backend/.env
+Frontend/.env
