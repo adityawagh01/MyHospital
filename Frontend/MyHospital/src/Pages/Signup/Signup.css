@@ -1,0 +1,115 @@
+/* Background */
+body {
+    background: url('./hospital-bg-signup.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+/* Signup container */
+.signup-container {
+    width: 100%;
+    max-width: 450px;
+    background-color: rgba(255, 255, 255, 0.95); /* Light shade to contrast with background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+  
+/* Logo */
+.logo {
+    width: 100px;
+}
+
+/* Headings */
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.user-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+  
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+  
+label {
+    font-size: 0.8rem;
+    color: #666;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* Align labels at the top of input */
+}
+
+/* Dropdown Group for User Type */
+.dropdown-group {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.user-type-label {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}

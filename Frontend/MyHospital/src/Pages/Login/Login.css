@@ -1,0 +1,87 @@
+/* Background */
+body {
+    background: url('/hospital-bg.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container Styling */
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 100px;
+}
+  
+  /* Headings */
+  h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Input Fields */
+  .mdb-input {
+    position: relative; /* Set to relative for label positioning */
+  }
+  
+  input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  label {
+    font-size: 0.8rem; /* Reduce font size */
+    color: #666; /* Label color */
+    position: absolute; /* Positioning for top label */
+    top: -10px; /* Move the label above the input */
+    left: 12px; /* Left padding */
+  }
+  
+  /* Buttons */
+  .btn-custom {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-custom:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 0.85rem;
+  }
+  

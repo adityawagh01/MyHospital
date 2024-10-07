@@ -1,0 +1,7 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/hospital-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+  }
+  
